@@ -4,20 +4,20 @@ import { Calendar, Clock, MapPin, Users } from 'lucide-react';
 const Events = () => {
   const events = [
     {
-      title: "Are You Rapture-Ready - Salvation Festival",
-      date: "September 26-28, 2025",
-      time: "9:00 AM - 9:00 PM",
-      location: "YMCA Blue Ridge Assembly-Weatherford Hall",
-      attendees: "200+ Expected",
-      description: "It's the time of year to celebrate our salvation."
+      title: "Global Crossover Service 2025-2026",
+      date: "December 31, 2025",
+      time: "8:00 PM - 1:00 AM CAT",
+      location: "Malawi and Hybrid at US Branches",
+      attendees: "300M+ Expected Worldwide",
+      description: "Celebrate and cross-over into a new year with the Prophet."
     },
     {
-      title: "Parach Week",
-      date: "September 26-28, 2025",
-      time: "8:00 AM - 6:00 PM",
-      location: "Contact a US branch for local schedule",
-      attendees: "200+ Expected",
-      description: "Celebrating and evangelising with the monthly prophetic devotional."
+      title: "USA Crossover Service 2025-2026",
+      date: "December 31, 2025",
+      time: "8:00 PM - 1:00 AM in Respective Time Zones",
+      location: "US Branches",
+      attendees: "200K+ Expected",
+      description: "Continue celebrations of crossving over."
     },
     {
       title: "International, Asher, Napthali, Judah & Benjamin Tribes Online Summit",
