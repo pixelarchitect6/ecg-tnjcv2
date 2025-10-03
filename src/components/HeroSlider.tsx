@@ -34,7 +34,7 @@ const HeroSlider = () => {
       id: 2,
       type: 'image',
       background: '/IMG_2513-slider2.jpg',
-      title: 'Annual Theme: "2025: The Year of Plenty"',
+      title: 'Theme of the Year: "2025: The Year of Plenty"',
       subtitle: 'Stepping into God\'s Abundant Blessings',
       description: 'Join us for this powerful sermon series as we explore God\'s overflowing provision and abundance for the year ahead.',
       primaryCTA: {
