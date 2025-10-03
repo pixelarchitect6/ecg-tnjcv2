@@ -1,0 +1,81 @@
+import React from 'react';
+import { Calendar, Clock, MapPin, Users } from 'lucide-react';
+
+const Events = () => {
+  const events = [
+    {
+      title: "Are You Rapture-Ready - Salvation Festival",
+      date: "September 26-28, 2025",
+      time: "9:00 AM - 9:00 PM",
+      location: "YMCA Blue Ridge Assembly-Weatherford Hall",
+      attendees: "200+ Expected",
+      description: "It's the time of year to celebrate our salvation."
+    },
+    {
+      title: "Parach Week",
+      date: "September 26-28, 2025",
+      time: "8:00 AM - 6:00 PM",
+      location: "Contact a US branch for local schedule",
+      attendees: "200+ Expected",
+      description: "Celebrating and evangelising with the monthly prophetic devotional."
+    },
+    {
+      title: "International, Asher, Napthali, Judah & Benjamin Tribes Online Summit",
+      date: "TBD",
+      time: "TBD",
+      location: "TBD",
+      attendees: "1000+ Expected",
+      description: "A inspiration, empowerment, and leadership training for stewards."
+    }
+  ];
+
+  return (
+    <section id="events" className="py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-4xl md:text-5xl font-bold text-blue-900 mb-6">
+            Upcoming Events
+          </h2>
+          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            Don't miss these powerful opportunities for spiritual growth and community
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          {events.map((event, index) => (
+            <div key={index} className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-2xl p-8 text-white transform hover:scale-105 transition-transform duration-300">
+              <h3 className="text-2xl font-bold mb-4 text-yellow-400">{event.title}</h3>
+              
+              <div className="space-y-3 mb-6">
+                <div className="flex items-center">
+                  <Calendar className="text-yellow-400 mr-3" size={20} />
+                  <span>{event.date}</span>
+                </div>
+                <div className="flex items-center">
+                  <Clock className="text-yellow-400 mr-3" size={20} />
+                  <span>{event.time}</span>
+                </div>
+                <div className="flex items-center">
+                  <MapPin className="text-yellow-400 mr-3" size={20} />
+                  <span>{event.location}</span>
+                </div>
+                <div className="flex items-center">
+                  <Users className="text-yellow-400 mr-3" size={20} />
+                  <span>{event.attendees}</span>
+                </div>
+              </div>
+              
+              <p className="text-blue-100 mb-6 leading-relaxed">{event.description}</p>
+              
+              <button className="bg-yellow-400 hover:bg-yellow-500 text-blue-900 font-bold py-3 px-6 rounded-lg transition-colors w-full">
+                Register Now
+              </button>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default Events;
