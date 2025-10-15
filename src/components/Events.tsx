@@ -20,14 +20,6 @@ const Events = () => {
       description: "Celebrate and cross-over into a new year with the Prophet."
     },
     {
-      title: "USA Crossover Service 2025-2026",
-      date: "December 31, 2025",
-      time: "8:00 PM - 1:00 AM in Respective Time Zones",
-      location: "US Branches",
-      attendees: "200K+ Expected",
-      description: "Continue celebrations of crossving over."
-    },
-    {
       title: "International, Asher, Napthali, Judah & Benjamin Tribes Online Summit",
       date: "TBD",
       time: "TBD",
