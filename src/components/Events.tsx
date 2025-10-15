@@ -6,7 +6,7 @@ const Events = () => {
        {
       title: "International Partnership Week 2025-2026",
       date: "October 27 - November 2, 2025",
-      time: "8:00 PM - 1:00 AM CAT",
+      time: "8:00 AM - 6:00 PM CAT",
       location: "Global Hybrid Event at US Branches",
       attendees: "10K+ Expected Worldwide",
       description: "Celebrate Global Partnership Impact."
