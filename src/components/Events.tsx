@@ -3,6 +3,14 @@ import { Calendar, Clock, MapPin, Users } from 'lucide-react';
 
 const Events = () => {
   const events = [
+       {
+      title: "International Partnership Week 2025-2026",
+      date: "October 27 - November 2, 2025",
+      time: "8:00 PM - 1:00 AM CAT",
+      location: "Global Hybrid Event at US Branches",
+      attendees: "10K+ Expected Worldwide",
+      description: "Celebrate Global Partnership Impact."
+    },
     {
       title: "Global Crossover Service 2025-2026",
       date: "December 31, 2025",
