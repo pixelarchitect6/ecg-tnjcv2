@@ -4,15 +4,15 @@ import { Calendar, Clock, MapPin, Users } from 'lucide-react';
 const Events = () => {
   const events = [
        {
-      title: "International Partnership Week 2025-2026",
-      date: "October 27 - November 2, 2025",
+      title: "Global Partnership Crossover Retreat 2025-2026",
+      date: "December 26 2025 - December 1, 20256",
       time: "8:00 AM - 6:00 PM CAT",
-      location: "Global Hybrid Event at US Branches",
-      attendees: "10K+ Expected Worldwide",
-      description: "Celebrate Global Partnership Impact."
+      location: "Global Hybrid Event",
+      attendees: "100K+ Expected Worldwide",
+      description: "Celebrate Global Partnership Annual Achievements."
     },
     {
-      title: "Global Crossover Service 2025-2026",
+      title: "Global Night of Victory Crossover Service 2025-2026",
       date: "December 31, 2025",
       time: "8:00 PM - 1:00 AM CAT",
       location: "Malawi and Hybrid at US Branches",
@@ -20,12 +20,12 @@ const Events = () => {
       description: "Celebrate and cross-over into a new year with the Prophet."
     },
     {
-      title: "International, Asher, Napthali, Judah & Benjamin Tribes Online Summit",
-      date: "TBD",
-      time: "TBD",
-      location: "TBD",
-      attendees: "1000+ Expected",
-      description: "A inspiration, empowerment, and leadership training for stewards."
+      title: "US Night of Victory Crossover Service 2025-2026"",
+      date: "December, 31 2025",
+      time: "Contact Local branch close to you",
+      location: "US Branches",
+      attendees: "10k+ Expected",
+      description: "Celebrate and cross-over into a new year from any US Branch."
     }
   ];
 
