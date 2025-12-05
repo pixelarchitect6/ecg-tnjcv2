@@ -20,7 +20,7 @@ const Events = () => {
       description: "Celebrate and cross-over into a new year with the Prophet."
     },
     {
-      title: "US Night of Victory Crossover Service 2025-2026"",
+      title: "US Night of Victory Crossover Service 2025-2026",
       date: "December, 31 2025",
       time: "Contact Local branch close to you",
       location: "US Branches",
